@@ -42,7 +42,12 @@ class ExtendedHighcharts extends Highcharts
     /**
      * print an emptyItem div
      */
-    private function renderEmptyWidget(){
+    private function renderEmptyWidget()
+    {
+        if(!isset($this->emptyItemHtmlOptions['tag'])){
+            $this->emptyItemHtmlOptions['tag'] = 'div';
+        }
+        
         $tag = $this->emptyItemHtmlOptions['tag'];
             unset($this->emptyItemHtmlOptions['tag']);
 
