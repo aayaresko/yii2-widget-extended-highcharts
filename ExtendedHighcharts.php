@@ -25,7 +25,6 @@ class ExtendedHighcharts extends Highcharts
 
     public $emptyItemHtmlOptions = [
         'class' => 'empty',
-        'tag' => 'div',
     ];
 
     /**
