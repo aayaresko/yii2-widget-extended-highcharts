@@ -14,6 +14,7 @@ use yii\helpers\ArrayHelper;
 
 /**
  * Highcharts encapsulates the {@link http://www.highcharts.com/ Highcharts}
+ * shows an emptyItem block if current chart has no data to display
  * charting library's Chart object.
  */
 class ExtendedHighcharts extends Highcharts
@@ -40,7 +41,7 @@ class ExtendedHighcharts extends Highcharts
     }
 
     /**
-     * print an emptyItem div
+     * print an emptyItem block
      */
     private function renderEmptyWidget()
     {
