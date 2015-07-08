@@ -18,8 +18,8 @@ use miloschuman\highcharts\Highcharts;
 use yii\helpers\ArrayHelper;
 
 /**
- * Highcharts encapsulates the {@link http://www.highcharts.com/ Highcharts} charting library's Chart object.
- * отображает пустой блок в случае если у текущего chart нет данных для отображения
+ * Highcharts encapsulates the {@link http://www.highcharts.com/ Highcharts} charting library's Chart object
+ * отображает пустой блок в случае если у текущего chart нет данных для отображения.
  * 
  * Class ExtendedHighcharts
  * @author aayaresko <aayaresko@gmail.com>
