@@ -8,18 +8,15 @@ Widget будет проверять наличие в массиве 'series' �
 
 # Установка
 Предпочтительный способ установки через [composer](http://getcomposer.org/download/). Ознакомьтесь с требовния расширения и его зависимостями в [composer.json](https://github.com/aayaresko/yii2-widget-extended-highcharts/blob/master/composer.json).
-Для установки выполните
 
+Для установки выполните
 ```
 $ php composer.phar require aayaresko/yii2-widget-extended-highcharts "dev-master"
 ```
-
 или добавьте
-
 ```
 "aayaresko/yii2-widget-extended-highcharts": "dev-master"
 ```
-
 в секцию ```require``` вашего `composer.json`.
 
 ## Использование
