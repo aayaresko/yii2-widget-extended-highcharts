@@ -44,13 +44,7 @@ class ExtendedHighcharts extends Highcharts
      */
     private function renderEmptyWidget()
     {
-        if(!isset($this->emptyItemHtmlOptions['tag'])){
-            $this->emptyItemHtmlOptions['tag'] = 'div';
-        }
-        
-        $tag = $this->emptyItemHtmlOptions['tag'];
-            unset($this->emptyItemHtmlOptions['tag']);
-
+        $tag = ArrayHelper::remove($this->emptyItemHtmlOptions, 'tag', 'div');
         echo Html::tag($tag, $this->emptyItemText, $this->emptyItemHtmlOptions);
     }
 }
