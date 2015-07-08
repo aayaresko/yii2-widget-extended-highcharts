@@ -10,6 +10,7 @@ namespace aayaresko\highcharts;
 
 use yii\helpers\Html;
 use miloschuman\highcharts\Highcharts;
+use yii\helpers\ArrayHelper;
 
 /**
  * Highcharts encapsulates the {@link http://www.highcharts.com/ Highcharts}
