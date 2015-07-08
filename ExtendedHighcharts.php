@@ -1,9 +1,14 @@
 <?php
-
 /**
+ * Created by PhpStorm.
+ * User: aayaresko
+ * Date: 23.06.15
+ * Time: 11:45
+ * 
  * Highcharts class file.
  *
- * @author aayaresko <aayaresko@gmail.com>
+ * @copyright Copyright &copy; Andrej Jaresko, disbalans.net, 2015
+ * @subpackage yii2-widget-extended-highcharts
  */
 
 namespace aayaresko\highcharts;
@@ -13,9 +18,13 @@ use miloschuman\highcharts\Highcharts;
 use yii\helpers\ArrayHelper;
 
 /**
- * Highcharts encapsulates the {@link http://www.highcharts.com/ Highcharts}
- * shows an emptyItem block if current chart has no data to display
- * charting library's Chart object.
+ * Highcharts encapsulates the {@link http://www.highcharts.com/ Highcharts} charting library's Chart object.
+ * отображает пустой блок в случае если у текущего chart нет данных для отображения
+ * 
+ * Class ExtendedHighcharts
+ * @author aayaresko <aayaresko@gmail.com>
+ * @see http://www.highcharts.com/
+ * @see https://github.com/miloschuman/yii2-highcharts
  */
 class ExtendedHighcharts extends Highcharts
 {
