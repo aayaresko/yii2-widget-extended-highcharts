@@ -14,7 +14,7 @@
 	"minimum-stability": "dev",
 	"require": {
 	  	"php": ">=5.3.0",
-	  	"miloschuman/yii2-highcharts-widget": "dev-master"
+	  	"miloschuman/yii2-highcharts-widget": "@dev"
 	},
 	"autoload": {
 		"psr-4": {
